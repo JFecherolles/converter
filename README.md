@@ -1,5 +1,5 @@
 ![Capture d’écran 2023-05-22 195931](https://github.com/JFecherolles/converter/assets/115983952/5dbfa479-67b2-4830-b068-8a81d65ce96b)
-# Weather-app
+# Converter
 
 Projet d'application de conversion utilisant React.js.
 
