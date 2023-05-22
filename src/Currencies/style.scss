@@ -5,6 +5,7 @@
   max-height: 250px;
   overflow-y: auto;
   border-radius: 10px;
+  
 
   &-title {
     padding: vars.$gutter;
@@ -14,8 +15,8 @@
 
   &-list {
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
   }
 }
 
@@ -49,3 +50,26 @@
     border-radius: 10px;
   }
 }
+
+@media (max-width: 768px) {
+  .currencies {
+  &::-webkit-scrollbar {
+  width: calc(vars.$gutter/2);
+  border-radius: 10px;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background-color: vars.$color-light;
+    border-radius: 10px;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background-color: vars.$color-scroll;
+    outline: 1px solid black;
+    border-radius: 10px;
+  }
+  
+  }
+   
+  }
+

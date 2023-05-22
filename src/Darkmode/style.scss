@@ -206,3 +206,11 @@ body {
     filter: blur(1px);
   }
 }
+
+@media (max-width: 768px) {
+  .wrapper {
+    position: relative;
+    top: 0px;
+    left: 230px;
+  }
+}
