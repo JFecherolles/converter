@@ -33,7 +33,7 @@ body {
 .wrapper{
   position: relative;
   top: 0px;
-  left: 320px;
+  left: 10px;
 }
 
 .switch {
@@ -59,7 +59,7 @@ body {
   transition: background-image 1s ease-in-out;
   position: relative;
   top: 0px;
-  left: 320px;
+  left: 10px;
 }
 
 .switch:after {
@@ -211,7 +211,7 @@ body {
   .wrapper {
     position: relative;
     top: 0px;
-    left: 280px;
+    left: 10px;
   }
   .switch:checked {
     background-color: rgb(4,52,73);
@@ -219,6 +219,6 @@ body {
     transition: background-image 1s ease-in-out;
     position: relative;
     top: 0px;
-    left: 280px;
+    left: 10px;
   }
 }
