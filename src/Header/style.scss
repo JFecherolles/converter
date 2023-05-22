@@ -1,0 +1,33 @@
+@use 'src/styles/vars';
+
+.header {
+  background-color: vars.$color;
+  color: vars.$color-light;
+  padding: vars.$gutter * 3 0;
+  text-align: center;
+  border-radius: 10px;
+
+  &-title {
+    font-size: 2em;
+    font-weight: 700;
+  }
+
+  &-amount {
+    margin-top: vars.$gutter;
+    font-size: 1.3em;
+    border-radius: 10px;
+  }
+
+  .currencies-search {
+    padding: vars.$gutter;
+    margin-top: vars.$gutter;
+    width: 90%;
+    border: none;
+    font: inherit;
+    border-radius: 10px;
+
+    &::placeholder {
+      color: vars.$color-alt;
+    }
+  }
+}

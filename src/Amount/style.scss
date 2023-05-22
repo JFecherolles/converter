@@ -1,0 +1,20 @@
+@use 'src/styles/vars';
+
+.Amount {
+  background-color: vars.$color-light;
+  padding: vars.$gutter;
+  text-align: center;
+  margin: 40px;
+  border: 5px dotted vars.$color;
+
+  &-convertedValue {
+    font-size: bold;
+    font-weight: 2em;
+  }
+
+  &-currency {
+    font-size: 1.3em;
+    margin-top: vars.$gutter;
+  }
+}
+
